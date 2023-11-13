@@ -2,24 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-12T15:36:33 BDT" name="Default suite" finished-at="2023-11-12T15:36:48 BDT" duration-ms="15082">
+  <suite started-at="2023-11-13T20:21:01 BDT" name="Suite" finished-at="2023-11-13T20:21:16 BDT" duration-ms="14765">
     <groups>
+      <group name="Regression">
+        <method signature="Test_LoginPage.LoginTest(java.util.HashMap)[pri:0, instance:org.redqa.tests.Test_LoginPage@573906eb]" name="LoginTest" class="org.redqa.tests.Test_LoginPage"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-11-12T15:36:33 BDT" name="Default test" finished-at="2023-11-12T15:36:48 BDT" duration-ms="15082">
-      <class name="org.redqa.tests.Test_Test">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.redqa.tests.Test_Test@6a6afff2]" started-at="2023-11-12T15:36:33 BDT" name="ConfigureAppium" finished-at="2023-11-12T15:36:47 BDT" duration-ms="13764" status="PASS">
+    <test started-at="2023-11-13T20:21:01 BDT" name="Login Test" finished-at="2023-11-13T20:21:16 BDT" duration-ms="14765">
+      <class name="org.redqa.tests.Test_LoginPage">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.redqa.tests.Test_LoginPage@573906eb]" started-at="2023-11-13T20:21:01 BDT" name="ConfigureAppium" finished-at="2023-11-13T20:21:07 BDT" duration-ms="6404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="test()[pri:0, instance:org.redqa.tests.Test_Test@6a6afff2]" started-at="2023-11-12T15:36:47 BDT" name="test" finished-at="2023-11-12T15:36:47 BDT" duration-ms="5" status="PASS">
+        <test-method signature="LoginTest(java.util.HashMap)[pri:0, instance:org.redqa.tests.Test_LoginPage@573906eb]" started-at="2023-11-13T20:21:07 BDT" name="LoginTest" data-provider="getData" finished-at="2023-11-13T20:21:14 BDT" duration-ms="6087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{assertDashboard=Dashboard, pass=admin123, username=Admin}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.redqa.tests.Test_Test@6a6afff2]" started-at="2023-11-12T15:36:47 BDT" name="tearDown" finished-at="2023-11-12T15:36:48 BDT" duration-ms="1275" status="PASS">
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.redqa.tests.Test_LoginPage@573906eb]" started-at="2023-11-13T20:21:14 BDT" name="tearDown" finished-at="2023-11-13T20:21:16 BDT" duration-ms="1718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.redqa.tests.Test_Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- org.redqa.tests.Test_LoginPage -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite -->
 </testng-results>
